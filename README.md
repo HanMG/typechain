@@ -27,6 +27,19 @@ interface 인터페이스명 {
     변수2: types
 }
 
+Class 형태로도 가능하고 변수에 접근지정자(public, private, etc)를 사용가능
+
+React, express, node등에서는 Class 형태로 사용해야한다함
+Class 클래스명 {
+    public 변수1: types;
+    public 변수2: types;
+    constructor (변수1: types, 변수2: types){
+        this.변수1 = 변수1;
+        this.변수2 = 변수2;
+    }
+}
+
+
 
 
 
